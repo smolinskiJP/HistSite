@@ -8,7 +8,7 @@ body{
 .page-wrapper {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows:0.1fr 0.1fr 0.6fr 0.1fr 0.2fr;
+    grid-template-rows:0.1fr 0.1fr 0.6fr 0.2fr;
 }
 
 nav{
@@ -106,6 +106,7 @@ main div{
 
 aside{
     margin: 0 5%;
+    padding-bottom:3%;
 }
 
 aside ul{
@@ -129,43 +130,5 @@ aside a{
 }
 
 aside a:hover{
-    color:crimson;
-}
-
-footer{
-    margin: 0 5%;
-    font-family: 'Lobster', cursive;
-    font-weight: bold;
-    font-size: 40px;
-}
-
-footer h3{
     color:midnightblue;
-}
-
-.membros-preview img {
-    width: 100%;
-}
-
-footer img {
-    display: block;
-    overflow: clip;
-}
-
-footer ul{
-    margin-top: 0;
-    display: grid;
-    padding-left: 0;
-    gap: 2%;
-    grid-template-columns: repeat(4,minmax(200px, 25%));
-}
-
-footer ul li{
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    list-style: none;
-    background: crimson;
-    padding:2% 2% 3% 2%;
-    border-radius: 5px;
-    box-shadow:10px 10px black;
 }
