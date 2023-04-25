@@ -78,7 +78,7 @@ footer ul{
     display: grid;
     padding-left: 0;
     gap: 2%;
-    grid-template-columns: repeat(4,minmax(200px, 50%));
+    grid-template-columns: repeat(auto-fit ,minmax(200px, 1fr));
 }
 
 footer ul li{
